@@ -36,7 +36,7 @@ const OrderPage = () => {
             return (
               <div key={item.userId + index}>
                 <p className='font-medium text-lg'>{moment(item.createdAt).format('LL')}</p>
-                <div className='border rounded'>
+                <div className='border rounded p-2'>
                   <div className='flex justify-between flex-col lg:flex-row'>
                     <div className='grid gap-1'>
                       {
